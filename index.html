@@ -44,7 +44,7 @@
       <div class="row">
         <div class="col-12">
           <!-- Header -->
-          <h3 class="mb-1">About Your dog</h3>
+          <h3 class="mb-0">About Your dog</h3>
           <hr>
           <!-- Dog Size Input Field-->
           <label for="" class="mb-0">1. Enter your dogs weight</label>
@@ -68,12 +68,31 @@
           </div>
         </div>
       </div>
-      <!-- Horizontal Line -->
-      <hr>
+      <br>
       <div class="row">
         <div class="col-12">
-          <h3>What type of chocolate has your dog eaten</h3>
-
+          <h3 class="mb-0">What type of chocolate has your dog eaten</h3>
+          <!-- Horizontal Line -->
+          <hr>
+          <!-- Chocolate Type Dropdown Field-->
+          <label for="" class="mb-0">3. Select chocolate type</label>
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>Choose...</option>
+              <option value="1">White Chocolate</option>
+              <option value="2">Milk Chocolate</option>
+              <option value="2">Cooking Chocolate</option>
+              <option value="3">Dark Chocolate</option>
+              <option value="4">Coco Powder</option>
+            </select>
+          </div>
+          <!-- Dog Size Input Field-->
+          <label for="" class="mb-0">4. How much chocolate was eaten</label>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Grams</span>
+            <input type="number" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+          </div>
         </div>
       </div>
     </div>
